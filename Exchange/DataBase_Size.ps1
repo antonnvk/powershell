@@ -1,0 +1,1 @@
+﻿Get-MailboxDatabase -Status | select-object Name,Server,DatabaseSize,Mounted
