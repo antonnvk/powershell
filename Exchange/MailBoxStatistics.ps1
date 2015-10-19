@@ -1,1 +1,1 @@
-﻿Get-MailboxStatistics -Server snhsvmail2 |ft Database, DisplayName, TotalItemSize
+﻿Get-mailbox | Get-MailboxStatistics | Sort-Object TotalItemSize -descending |ft Database, DisplayName, TotalItemSize
