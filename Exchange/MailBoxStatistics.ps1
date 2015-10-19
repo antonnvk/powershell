@@ -1,0 +1,1 @@
+﻿Get-MailboxStatistics -Server snhsvmail2 |ft Database, DisplayName, TotalItemSize
